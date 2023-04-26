@@ -37,7 +37,7 @@ A prebuilt project for creating desktop apps using Electron, React, ViteJS with 
 
 Ready to use aliases for importing modules, assets, stylesheets etc.
 
-**Example:**
+Example:
 
 ```ts
 // import App from './src/renderer/components/App'
@@ -47,7 +47,7 @@ import App from '$components/App';
 import '$styles/app.scss';
 ```
 
-**Aliases:**
+**Available Aliases:**
 
 | Alias         | Target Path                 |
 | ------------- | --------------------------- |
