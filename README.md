@@ -150,3 +150,13 @@ This configurations file is available in :
 ```bash
 tools/forge/forge.config.js
 ```
+
+## Vite Configurations
+
+All vite configurations are available for main, preload & renderer at:
+
+```bash
+tools/forge/vite/vite.main.config.ts
+tools/forge/vite/vite.preload.config.ts
+tools/forge/vite/vite.renderer.config.ts
+```
