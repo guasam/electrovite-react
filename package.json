@@ -1,7 +1,7 @@
 {
   "name": "electrovite-react",
-  "productName": "Electrovite",
-  "version": "0.1.0",
+  "productName": "ElectroVite",
+  "version": "1.0.0",
   "description": "A prebuilt project for creating desktop apps with Electron, React, TypeScript & super fast hot-reload of Vite.",
   "main": ".vite/build/main.js",
   "license": "MIT",
