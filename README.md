@@ -1,1 +1,3 @@
-# ElectroVite (React) for apps with Electron & ViteJS
+# ElectroVite, React apps with Electron & ViteJS
+
+A prebuilt project for creating desktop apps using Electron, React, ViteJS with blazing fast hot-reload, easy to use custom import aliases & executable builds for distribution.
