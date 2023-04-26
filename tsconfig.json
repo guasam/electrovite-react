@@ -24,7 +24,19 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "$main": ["./src/main"],
+      "$main/*": ["./src/main/*"],
+      "$renderer": ["./src/renderer"],
+      "$renderer/*": ["./src/renderer/*"],
+      "$assets": ["./assets"],
+      "$assets/*": ["./assets/*"],
+      "$components": ["./src/renderer/components"],
+      "$components/*": ["./src/renderer/components/*"],
+      "$styles": ["./src/renderer/styles"],
+      "$styles/*": ["./src/renderer/styles/*"]
+    }
   },
   "include": ["src/**/*", "tools/**/*"],
   "exclude": ["node_modules"]
