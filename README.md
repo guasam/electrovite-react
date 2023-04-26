@@ -151,6 +151,8 @@ This configurations file is available in :
 tools/forge/forge.config.js
 ```
 
+<br />
+
 ## Vite Configurations
 
 All vite configurations are available for main, preload & renderer at:
