@@ -162,7 +162,7 @@ tools/forge/forge.config.js
 All vite configurations are available for main, preload & renderer at:
 
 ```bash
-tools/forge/vite/vite.main.config.ts
-tools/forge/vite/vite.preload.config.ts
-tools/forge/vite/vite.renderer.config.ts
+tools/vite/vite.main.config.ts
+tools/vite/vite.preload.config.ts
+tools/vite/vite.renderer.config.ts
 ```
