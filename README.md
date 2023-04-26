@@ -41,6 +41,8 @@ Clone the repository:
 git clone https://github.com/guasam/electrovite-react
 ```
 
+<br />
+
 Install package dependencies using [pnpm](https://pnpm.io/) or [yarn](https://www.npmjs.com/package/yarn) or [npm](https://www.npmjs.com/) :
 
 ```bash
@@ -53,6 +55,8 @@ pnpm install
 # or using npm
 npm install
 ```
+
+<br />
 
 If you notice any errors when using `pnpm` package manager for this project, try to remove existing `node_modules` directory and install the pacakges using :
 
