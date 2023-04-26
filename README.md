@@ -35,7 +35,19 @@ A prebuilt project for creating desktop apps using Electron, React, ViteJS with 
 
 ## Custom aliases to import Components & Assets etc.
 
-Ready to use aliases for `import` paths :
+Ready to use aliases for `import` paths.
+
+**Example:**
+
+```ts
+// import App from './src/renderer/components/App'
+import App from '$components/App';
+
+// import './src/renderer/styles/app.scss'
+import '$styles/app.scss';
+```
+
+**Aliases:**
 
 | Alias         | Target Path                 |
 | ------------- | --------------------------- |
