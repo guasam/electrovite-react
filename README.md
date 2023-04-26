@@ -30,3 +30,18 @@ A prebuilt project for creating desktop apps using Electron, React, ViteJS with 
 - ⚡ Blazing Fast Hot Reload from ViteJS
 - 🤖 Native Node Modules Support
 - 👍🏼 Dedicated Vite Configurations
+
+<br />
+
+## Custom aliases to import Components & Assets etc.
+
+Ready to use aliases for `import` paths :
+
+| Alias         | Target Path                 |
+| ------------- | --------------------------- |
+| `$src`        | `./src`                     |
+| `$assets`     | `./assets`                  |
+| `$main`       | `./src/main`                |
+| `$renderer`   | `./src/renderer`            |
+| `$components` | `./src/renderer/components` |
+| `$styles`     | `./src/renderer/styles`     |
