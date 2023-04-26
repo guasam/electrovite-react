@@ -33,7 +33,7 @@ A prebuilt project for creating desktop apps using Electron, React, ViteJS with 
 
 <br />
 
-## Custom aliases to import Components & Assets etc.
+## Custom aliases to import Components, Styles & Assets.
 
 Ready to use aliases for importing modules, assets, stylesheets etc.
 
@@ -57,3 +57,32 @@ import '$styles/app.scss';
 | `$renderer`   | `./src/renderer`            |
 | `$components` | `./src/renderer/components` |
 | `$styles`     | `./src/renderer/styles`     |
+
+<br />
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/guasam/electrovite-react
+```
+
+Install package dependencies using [pnpm](https://pnpm.io/) or [yarn](https://www.npmjs.com/package/yarn) or [npm](https://www.npmjs.com/) :
+
+```bash
+# using yarn
+yarn install
+
+# or using pnpm
+pnpm install
+
+# or using npm
+npm install
+```
+
+If you notice any errors when using `pnpm` package manager for this project, try to remove existing `node_modules` directory and install the pacakges using :
+
+```bash
+pnpm i --shamefully-hoist
+```
