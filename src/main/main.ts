@@ -56,7 +56,7 @@ app.on('window-all-closed', () => {
 
 function createMainWindow() {
   mainWindow = new BrowserWindow({
-    width: 800,
+    width: 860,
     height: 600,
     backgroundColor: '#202020',
     show: false,

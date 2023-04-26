@@ -1,3 +1,75 @@
+@import './reset.scss';
+
 body {
   background-color: #1a1a1a;
+  color: #dfe5ff;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(35 35 38);
+  border-radius: 50%;
+  padding: 1.5rem;
+  box-shadow: 0 0 4px rgb(0 0 0 / 18%);
+  margin: 0 auto;
+  animation: pulse 2s infinite;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 2.5rem;
+}
+
+.teaser {
+  font-size: 18px;
+  color: gray;
+  text-align: center;
+
+  &.light {
+    margin-top: 5px;
+
+  }
+
+  span {
+    background: rgb(48, 48, 48);
+    padding: 3px 8px;
+    border-radius: 4px;
+    color: #a2a2aa;
+    font-size: 17px;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.85);
+  }
+  5% {
+    transform: scale(0.9);
+  }
+  10% {
+    transform: scale(0.85);
+  }
+  15% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.85);
+  }
+  100% {
+    transform: scale(0.85);
+  }
 }
