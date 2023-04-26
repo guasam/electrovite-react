@@ -50,8 +50,8 @@ app.on('window-all-closed', () => {
 });
 
 /**
- * Create Application Window
- * @returns {BrowserWindow} Application Window Instance
+ * Create main window
+ * @returns {BrowserWindow} Main window instance
  */
 
 function createMainWindow() {
@@ -60,6 +60,7 @@ function createMainWindow() {
     height: 600,
     backgroundColor: '#202020',
     show: false,
+    autoHideMenuBar: true,
     icon: path.resolve('assets/favicon.ico'),
     webPreferences: {
       nodeIntegration: false,
