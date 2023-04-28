@@ -5,10 +5,8 @@ A prebuilt project for creating desktop apps using Electron, React, ViteJS with 
 <br />
 
 <p align="center">
-<img src="assets/electrovite-round.png" width="200" />
+<img src="assets/banner.png" width="700" />
 </p>
-
-<h3 align="center"><a href="https://github.com/guasam/electrovite-react">ElectroVite + React</a></h3>
 
 <br />
 
